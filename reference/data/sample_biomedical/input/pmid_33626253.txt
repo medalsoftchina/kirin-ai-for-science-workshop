@@ -1,0 +1,10 @@
+Title: Idecabtagene Vicleucel (Ide-cel) CAR T-Cell Therapy in Relapsed Multiple Myeloma (KarMMa)
+DOI: 10.1056/NEJMoa2024850
+Category: Hematology / Cellular Immunotherapy
+Key Biomedical Entities: Idecabtagene vicleucel, Ide-cel, CAR-T, BCMA, Multiple Myeloma, KarMMa, Cytokine Release Syndrome, Neurotoxicity
+
+Abstract:
+The KarMMa phase 2 trial evaluated idecabtagene vicleucel (ide-cel), a B-cell maturation antigen (BCMA)-directed chimeric antigen receptor (CAR) T-cell therapy, in 128 heavily pretreated patients with relapsed and refractory multiple myeloma who had received at least three prior lines of therapy (including an immunomodulatory agent, a proteasome inhibitor, and an anti-CD38 antibody). An overall response was observed in 73% of patients, with complete response or stringent complete response achieved in 33%. Median progression-free survival was 8.8 months across all dose cohorts and 12.1 months in patients receiving the target dose of 450 x 10^6 CAR-positive T cells. Cytokine release syndrome (CRS) occurred in 84% of patients (5% grade 3 or higher); neurotoxicity occurred in 18% (3% grade 3).
+
+Clinical Details & Mechanism:
+BCMA is selectively expressed on the surface of malignant plasma cells in multiple myeloma, making it an ideal therapeutic target for cellular therapy. Ide-cel incorporates an anti-BCMA single-chain variable fragment (scFv), a 4-1BB costimulatory domain, and a CD3-zeta signaling domain. Management of toxicities is critical: CRS onset typically occurs within 1-2 days post-infusion and requires prompt intervention with tocilizumab (IL-6 receptor antagonist) and dexamethasone. ICANS (Immune effector Cell-Associated Neurotoxicity Syndrome) necessitates neurological surveillance and high-dose corticosteroid protocols.

@@ -1,0 +1,10 @@
+Title: Trastuzumab Deruxtecan in Previously Treated HER2-Low Advanced Breast Cancer (DESTINY-Breast04)
+DOI: 10.1056/NEJMoa2203690
+Category: Oncology / Antibody-Drug Conjugate
+Key Biomedical Entities: Trastuzumab deruxtecan, T-DXd, HER2-low, Breast Neoplasms, DESTINY-Breast04, Progression-Free Survival, Interstitial Lung Disease
+
+Abstract:
+In this randomized phase 3 trial (DESTINY-Breast04), patients with HER2-low metastatic breast cancer who had received one or two prior lines of chemotherapy were assigned to receive trastuzumab deruxtecan (T-DXd) or physician's choice of chemotherapy. Among all patients, median progression-free survival (PFS) was 9.9 months in the trastuzumab deruxtecan group versus 5.1 months in the chemotherapy group (hazard ratio for disease progression or death, 0.50; P<0.001). Overall survival was 23.4 months with T-DXd compared to 16.8 months with chemotherapy (HR 0.64; P=0.001). Interstitial lung disease (ILD) or pneumonitis occurred in 12.1% of patients receiving trastuzumab deruxtecan, predominantly grade 1 or 2, with 0.8% grade 5 events. T-DXd demonstrated significant superiority over standard chemotherapy in HER2-low disease.
+
+Clinical Details & Mechanism:
+DESTINY-Breast04 established a new standard of care for HER2-low metastatic breast cancer (defined as IHC 1+ or IHC 2+/ISH negative). Trastuzumab deruxtecan is an antibody-drug conjugate comprising an anti-HER2 humanized monoclonal antibody linked to a topoisomerase I inhibitor payload via a tetrapeptide-based cleavable linker. The high drug-to-antibody ratio (DAR ~8) and membrane-permeable payload induce a potent bystander killing effect on neighboring tumor cells with heterogeneous or low HER2 expression. Adverse event monitoring requires strict vigilance for drug-related interstitial lung disease (ILD), including routine high-resolution CT surveillance and immediate treatment interruption with systemic corticosteroids upon detection.

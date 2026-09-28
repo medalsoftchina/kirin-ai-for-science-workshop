@@ -1,0 +1,10 @@
+Title: Tirzepatide Once Weekly for the Treatment of Obesity (SURMOUNT-1)
+DOI: 10.1056/NEJMoa2206038
+Category: Cardiovascular & Metabolic Diseases
+Key Biomedical Entities: Tirzepatide, Dual GIP and GLP-1, Obesity, SURMOUNT-1, Body Weight Reduction, Insulin Sensitivity, Gastrointestinal Events
+
+Abstract:
+In the phase 3 double-blind SURMOUNT-1 trial, 2,539 adults with an average BMI of 38.0 and at least one weight-related complication (excluding diabetes) were randomly assigned to receive once-weekly subcutaneous tirzepatide (5 mg, 10 mg, or 15 mg) or placebo for 72 weeks. The mean percentage change in weight at week 72 was -15.0% with 5 mg, -19.5% with 10 mg, -20.9% with 15 mg, and -3.1% with placebo (P<0.001 for all dose comparisons with placebo). The percentage of participants who achieved a weight reduction of 20% or more was 50% in the 10-mg group and 57% in the 15-mg group, compared to 3% in the placebo group. The most common adverse events were transient, mild-to-moderate gastrointestinal events (nausea, diarrhea, constipation).
+
+Clinical Details & Mechanism:
+Tirzepatide is a novel 39-amino-acid synthetic peptide engineered as a dual glucose-dependent insulinotropic polypeptide (GIP) and glucagon-like peptide-1 (GLP-1) receptor agonist. Synergistic activation of both incretin receptor pathways produces enhanced metabolic benefits: GIP receptor agonism acts on white adipose tissue to improve insulin sensitivity and lipid storage, and acts in the hypothalamus to synergize with GLP-1 in reducing caloric intake and suppressing nausea. SURMOUNT-1 demonstrated that dual incretin agonism achieves weight loss approaching levels previously attainable only through bariatric surgery.

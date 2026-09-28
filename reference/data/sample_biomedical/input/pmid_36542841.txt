@@ -1,0 +1,10 @@
+Title: Epcoritamab Monotherapy in Relapsed or Refractory Diffuse Large B-Cell Lymphoma (EPCORE NHL-1)
+DOI: 10.1200/JCO.22.01725
+Category: Hematology / Bispecific Antibodies
+Key Biomedical Entities: Epcoritamab, CD3xCD20, Bispecific Antibody, DLBCL, EPCORE NHL-1, Cytokine Release Syndrome, Complete Remission
+
+Abstract:
+EPCORE NHL-1 was an open-label, multicenter trial evaluating subcutaneous epcoritamab, a bispecific antibody targeting CD3 and CD20, in 157 patients with relapsed or refractory large B-cell lymphoma (LBCL). At a median follow-up of 10.7 months, overall response rate was 63.1% and complete response rate was 38.9%. Median duration of response was 12.0 months overall, and not reached among patients achieving complete response. Cytokine release syndrome occurred in 49.7% of patients (grade 1/2 in 47.1%; grade 3 in 2.5%; no grade 4/5). Subcutaneous step-up dosing and prophylactic corticosteroids mitigated the incidence of severe CRS. Epcoritamab demonstrated durable single-agent activity in a population refractory to prior chemoimmunotherapy and CAR-T therapy.
+
+Clinical Details & Mechanism:
+Epcoritamab is an engineered, IgG1-bispecific full-length antibody that simultaneously binds CD3 on endogenous T cells and CD20 on malignant B cells, directing cytotoxic T-cell synapses and perforin/granzyme-mediated apoptosis of lymphoma cells. Subcutaneous delivery provides a slower absorption rate and lower peak plasma cytokine concentrations compared to intravenous bispecifics, significantly reducing the severity of cytokine release syndrome (CRS). This pharmacodynamic property permits outpatient administration after initial step-up monitoring.

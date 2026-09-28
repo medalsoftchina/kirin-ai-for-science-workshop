@@ -1,0 +1,10 @@
+Title: Pembrolizumab Plus Chemotherapy in Advanced Esophageal Cancer (KEYNOTE-590)
+DOI: 10.1016/S0140-6736(21)00152-4
+Category: Oncology / Immune Checkpoint Inhibitors
+Key Biomedical Entities: Pembrolizumab, PD-1 Inhibitor, Esophageal Neoplasms, KEYNOTE-590, Overall Survival, CPS Score, Fluorouracil, Cisplatin
+
+Abstract:
+The randomized, double-blind phase 3 KEYNOTE-590 trial investigated first-line pembrolizumab (200 mg every 3 weeks) plus 5-fluorouracil and cisplatin versus placebo plus chemotherapy in 749 patients with previously untreated, unresectable locally advanced or metastatic esophageal carcinoma or Siewert type 1 gastroesophageal junction adenocarcinoma. In patients with esophageal squamous cell carcinoma and programmed death ligand 1 (PD-L1) combined positive score (CPS) >= 10, median overall survival was 13.9 months with pembrolizumab-chemotherapy versus 8.8 months with chemotherapy alone (hazard ratio 0.57; 95% CI 0.43-0.75; P<0.0001). Progression-free survival was also significantly prolonged (median 7.5 vs 5.5 months; HR 0.51). Grade 3-5 treatment-related adverse events occurred in 72% of the pembrolizumab group and 68% of the control group.
+
+Clinical Details & Mechanism:
+KEYNOTE-590 established chemoimmunotherapy as the global first-line benchmark for advanced esophageal cancer. Biomarker stratification using the PD-L1 Combined Positive Score (CPS) is clinically imperative: the magnitude of survival benefit correlates strongly with PD-L1 expression levels (CPS >= 10 vs CPS < 10). Pembrolizumab blocks PD-1 binding to PD-L1 and PD-L2, reversing T-cell exhaustion in the tumor microenvironment, while cytotoxic chemotherapy induces immunogenic cell death and antigen release, creating synergistic antitumor immune responses.

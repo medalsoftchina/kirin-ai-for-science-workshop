@@ -1,0 +1,10 @@
+Title: Semaglutide and Cardiovascular Outcomes in Obesity without Diabetes (SELECT Trial)
+DOI: 10.1056/NEJMoa2307563
+Category: Cardiovascular & Metabolic Diseases
+Key Biomedical Entities: Semaglutide, GLP-1 Receptor Agonist, Obesity, Cardiovascular Outcomes, MACE, SELECT Trial, Myocardial Infarction
+
+Abstract:
+The SELECT multinational, randomized, double-blind, placebo-controlled trial investigated subcutaneous semaglutide (2.4 mg once weekly) versus placebo in 17,604 patients aged 45 years or older with preexisting cardiovascular disease and overweight or obesity, but without diabetes. Over a mean follow-up of 39.8 months, a primary major adverse cardiovascular event (MACE: cardiovascular death, nonfatal myocardial infarction, or nonfatal stroke) occurred in 569 of 8,803 patients (6.5%) in the semaglutide group and in 701 of 8,801 patients (8.0%) in the placebo group (hazard ratio, 0.80; 95% CI, 0.72 to 0.90; P<0.001). Adverse events leading to permanent discontinuation of the trial drug occurred in 16.6% in the semaglutide group (predominantly gastrointestinal disorders) versus 8.2% in the placebo group.
+
+Clinical Details & Mechanism:
+Semaglutide is a long-acting glucagon-like peptide-1 (GLP-1) receptor agonist that promotes weight loss through central appetite suppression, delayed gastric emptying, and improved glycemic control. The SELECT trial was the first dedicated cardiovascular outcome trial to prove that a pharmacological weight-loss agent can reduce major cardiovascular events in patients without diabetes. Mechanisms of cardiovascular risk reduction are hypothesized to extend beyond body weight reduction, encompassing anti-inflammatory vascular effects, reduced blood pressure, and decreased visceral adiposity.

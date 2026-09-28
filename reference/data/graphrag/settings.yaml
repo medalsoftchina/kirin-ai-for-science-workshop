@@ -1,0 +1,112 @@
+### GraphRAG 2.x configuration (schema verified against graphrag 2.7.2 `graphrag init` defaults)
+### Chat: Azure deployment gpt-4.1 (2025-04-14); Embedding: text-embedding-3-large.
+### api_key / api_base come from the GraphRAG root .env (synchronized by run_index.py from reference/.env).
+
+models:
+  default_chat_model:
+    type: chat
+    model_provider: azure
+    auth_type: api_key
+    api_key: ${AZURE_OPENAI_API_KEY}
+    api_base: ${AZURE_OPENAI_ENDPOINT}
+    api_version: "2024-10-21"
+    deployment_name: gpt-4.1
+    model: gpt-4.1
+    model_supports_json: true
+    concurrent_requests: 5
+    async_mode: threaded
+    retry_strategy: exponential_backoff
+    max_retries: 10
+  default_embedding_model:
+    type: embedding
+    model_provider: azure
+    auth_type: api_key
+    api_key: ${AZURE_OPENAI_API_KEY}
+    api_base: ${AZURE_OPENAI_ENDPOINT}
+    api_version: "2024-10-21"
+    deployment_name: text-embedding-3-large
+    model: text-embedding-3-large
+    concurrent_requests: 5
+    async_mode: threaded
+    retry_strategy: exponential_backoff
+    max_retries: 10
+
+input:
+  storage:
+    type: file
+    base_dir: "input"
+  file_type: text
+
+chunks:
+  size: 600
+  overlap: 100
+  encoding_model: o200k_base
+  group_by_columns: [id]
+
+output:
+  type: file
+  base_dir: "output"
+
+cache:
+  type: file
+  base_dir: "cache"
+
+reporting:
+  type: file
+  base_dir: "logs"
+
+vector_store:
+  default_vector_store:
+    type: lancedb
+    db_uri: output/lancedb
+    container_name: default
+
+embed_text:
+  model_id: default_embedding_model
+  vector_store_id: default_vector_store
+
+extract_graph:
+  model_id: default_chat_model
+  prompt: "prompts/extract_graph.txt"
+  entity_types: [organization, person, method, dataset, model, disease, intervention, outcome]
+  max_gleanings: 1
+
+summarize_descriptions:
+  model_id: default_chat_model
+  prompt: "prompts/summarize_descriptions.txt"
+  max_length: 500
+
+cluster_graph:
+  max_cluster_size: 10
+
+extract_claims:
+  enabled: false
+
+community_reports:
+  model_id: default_chat_model
+  graph_prompt: "prompts/community_report_graph.txt"
+  text_prompt: "prompts/community_report_text.txt"
+  max_length: 2000
+  max_input_length: 8000
+
+local_search:
+  chat_model_id: default_chat_model
+  embedding_model_id: default_embedding_model
+  prompt: "prompts/local_search_system_prompt.txt"
+
+global_search:
+  chat_model_id: default_chat_model
+  map_prompt: "prompts/global_search_map_system_prompt.txt"
+  reduce_prompt: "prompts/global_search_reduce_system_prompt.txt"
+  knowledge_prompt: "prompts/global_search_knowledge_system_prompt.txt"
+
+drift_search:
+  chat_model_id: default_chat_model
+  embedding_model_id: default_embedding_model
+  prompt: "prompts/drift_search_system_prompt.txt"
+  reduce_prompt: "prompts/drift_reduce_prompt.txt"
+
+basic_search:
+  chat_model_id: default_chat_model
+  embedding_model_id: default_embedding_model
+  prompt: "prompts/basic_search_system_prompt.txt"

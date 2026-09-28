@@ -1,0 +1,10 @@
+Title: CRISPR-Cas9 Gene Editing with Exagamglogene Autotemcel for Transfusion-Dependent Beta-Thalassemia
+DOI: 10.1056/NEJMoa2309673
+Category: Genomics / Gene Editing
+Key Biomedical Entities: Exagamglogene autotemcel, Exa-cel, CRISPR-Cas9, BCL11A, Beta-Thalassemia, Fetal Hemoglobin, Transfusion Independence
+
+Abstract:
+In this single-arm open-label trial (CLIMB THAL-111), patients aged 12 to 35 years with transfusion-dependent beta-thalassemia received autologous CD34+ hematopoietic stem and progenitor cells edited with CRISPR-Cas9 at the erythroid-specific enhancer region of the BCL11A gene (exagamglogene autotemcel [exa-cel]) following myeloablative busulfan conditioning. Of 52 treated patients with adequate follow-up, 48 (92.3%) achieved transfusion independence for at least 12 consecutive months, with weighted average total hemoglobin levels maintained above 11.0 g/dL and high proportions of fetal hemoglobin (HbF > 90%). The safety profile was consistent with busulfan myeloablative conditioning; no malignant clones or off-target gene editing events were observed.
+
+Clinical Details & Mechanism:
+Exagamglogene autotemcel (exa-cel / Casgevy) is the first approved therapeutic application of CRISPR-Cas9 gene editing. Rather than attempting direct repair of the mutant beta-globin gene (HBB), exa-cel introduces targeted double-strand breaks in the erythroid-specific GATA1-binding motif within the BCL11A enhancer. Downregulation of BCL11A selectively relieves transcriptional repression of the gamma-globin genes (HBG1 and HBG2), reactivating production of fetal hemoglobin (HbF, alpha2-gamma2). High levels of HbF overcome the alpha/beta globin imbalance in beta-thalassemia and eliminate hemolytic anemia.

@@ -1,0 +1,161 @@
+variation_id,gene,variant_name,clinical_significance,review_status,condition
+4935336,BRCA1,NM_007294.4(BRCA1):c.135-16T>C,Likely benign,"criteria provided, single submitter",not specified
+4935335,BRCA1,NM_007294.4(BRCA1):c.213-27T>G,Likely benign,"criteria provided, single submitter",not specified
+4935332,BRCA1,NM_007294.4(BRCA1):c.441+1G>T,Likely pathogenic,"criteria provided, single submitter",BRCA1-related disorder
+4935331,BRCA1,NM_007294.4(BRCA1):c.442-29G>A,Likely benign,"criteria provided, single submitter",not specified
+4935326,BRCA1,NM_007294.4(BRCA1):c.1665_1674del (p.Asn555fs),Likely pathogenic,"criteria provided, single submitter",BRCA1-related disorder
+4935321,BRCA1,NM_007294.4(BRCA1):c.2485T>C (p.Phe829Leu),Likely benign,"criteria provided, single submitter",not specified
+4935316,BRCA1,NM_007294.4(BRCA1):c.4358-2753A>T,Likely benign,"criteria provided, single submitter",not specified
+4935312,BRCA1,NM_007294.4(BRCA1):c.4623G>A (p.Glu1541=),Likely benign,"criteria provided, single submitter",not specified
+4935311,BRCA1,NM_007294.4(BRCA1):c.4779A>G (p.Ile1593Met),Likely benign,"criteria provided, single submitter",not specified
+4935309,BRCA1,NM_007294.4(BRCA1):c.5075-32T>C,Likely benign,"criteria provided, single submitter",not specified
+4935308,BRCA1,NM_007294.4(BRCA1):c.5194-30T>C,Likely benign,"criteria provided, single submitter",not specified
+4935307,BRCA1,NM_007294.4(BRCA1):c.5407-32C>T,Likely benign,"criteria provided, single submitter",not specified
+4935305,BRCA1,NM_007294.4(BRCA1):c.*517G>C,Likely benign,"criteria provided, single submitter",not specified
+4935303,BRCA1,NM_007294.4(BRCA1):c.*1286C>A,Likely benign,"criteria provided, single submitter",not specified
+4935302,BRCA1,NM_007294.4(BRCA1):c.*1287dup,Likely benign,"criteria provided, single submitter",not specified
+4935301,BRCA1,NM_007294.4(BRCA1):c.*1323A>G,Likely benign,"criteria provided, single submitter",not specified
+4890871,BRCA1,NM_007294.4(BRCA1):c.5075-1585_5194-2201dup,Pathogenic,"criteria provided, single submitter","Breast-ovarian cancer, familial, susceptibility to, 1"
+4890846,BRCA1,NM_007294.4(BRCA1):c.4587dup (p.Lys1530Ter),Pathogenic,"criteria provided, single submitter",Inherited breast cancer and ovarian cancer
+4887763,BRCA1,NC_000017.10:g.(41234593_41242960)_(41243050_41243451)del,Pathogenic,"criteria provided, single submitter",Hereditary breast ovarian cancer syndrome
+4887537,BRCA1,NC_000017.10:g.(41243050_41243451)_(41251898_41256138)del,Pathogenic,"criteria provided, single submitter",Hereditary breast ovarian cancer syndrome
+4919699,BRCA2,NM_000059.4(BRCA2):c.9745A>G (p.Thr3249Ala),Likely benign,"criteria provided, single submitter",not specified
+4919698,BRCA2,NM_000059.4(BRCA2):c.9724A>G (p.Thr3242Ala),Likely benign,"criteria provided, single submitter",not specified
+4919697,BRCA2,NM_000059.4(BRCA2):c.9501+6G>C,Likely benign,"criteria provided, single submitter",not specified
+4919693,BRCA2,NM_000059.4(BRCA2):c.8954-35C>G,Likely benign,"criteria provided, single submitter",not specified
+4919689,BRCA2,NM_000059.4(BRCA2):c.8487+7T>A,Likely benign,"criteria provided, single submitter",not specified
+4919682,BRCA2,NM_000059.4(BRCA2):c.7630_7642del (p.Gly2544fs),Likely pathogenic,"criteria provided, single submitter",BRCA2-related disorder
+4919681,BRCA2,NM_000059.4(BRCA2):c.7448delinsAGAAAT (p.Ser2483fs),Likely pathogenic,"criteria provided, single submitter",BRCA2-related disorder
+4919680,BRCA2,NM_000059.4(BRCA2):c.7316del (p.Gly2439fs),Pathogenic,"criteria provided, single submitter",BRCA2-related disorder
+4919676,BRCA2,NM_000059.4(BRCA2):c.6810A>T (p.Gly2270=),Likely benign,"criteria provided, single submitter",not specified
+4919673,BRCA2,NM_000059.4(BRCA2):c.5881_5882del (p.Ser1961fs),Likely pathogenic,"criteria provided, single submitter",BRCA2-related disorder
+4919670,BRCA2,NM_000059.4(BRCA2):c.5478C>A (p.Ala1826=),Likely benign,"criteria provided, single submitter",not specified
+4919661,BRCA2,NM_000059.4(BRCA2):c.3923A>G (p.Glu1308Gly),Likely benign,"criteria provided, single submitter",not specified
+4919659,BRCA2,NM_000059.4(BRCA2):c.3443_3449dup (p.Ile1151fs),Likely pathogenic,"criteria provided, single submitter",BRCA2-related disorder
+4919658,BRCA2,NM_000059.4(BRCA2):c.3251_3252= (p.Ser1084=),Likely pathogenic,"criteria provided, single submitter",BRCA2-related disorder
+4919655,BRCA2,NM_000059.4(BRCA2):c.2160T>G (p.Asp720Glu),Likely benign,"criteria provided, single submitter",not specified
+4919651,BRCA2,NM_000059.4(BRCA2):c.1920T>G (p.His640Gln),Likely benign,"criteria provided, single submitter",not specified
+4919649,BRCA2,NM_000059.4(BRCA2):c.1393_1403del (p.Val465fs),Likely pathogenic,"criteria provided, single submitter",BRCA2-related disorder
+4919647,BRCA2,NM_000059.4(BRCA2):c.1344dup (p.Ile449fs),Likely pathogenic,"criteria provided, single submitter",BRCA2-related disorder
+4919642,BRCA2,NM_000059.4(BRCA2):c.122= (p.Pro41=),Likely benign,"criteria provided, single submitter",not specified
+4919641,BRCA2,NM_000059.4(BRCA2):c.75A>G (p.Gly25=),Likely benign,"criteria provided, single submitter",not specified
+4933284,TP53,NM_000546.6(TP53):c.328delinsTTGCATTCTGG (p.Arg110fs),Likely pathogenic,"criteria provided, single submitter",TP53-related disorder
+4933283,TP53,NM_000546.6(TP53):c.532_535del (p.His178fs),Likely pathogenic,"criteria provided, single submitter",TP53-related disorder
+4933282,TP53,NM_000546.6(TP53):c.722_738del (p.Ser240_Ser241insTer),Likely pathogenic,"criteria provided, single submitter",TP53-related disorder
+4933281,TP53,NM_000546.6(TP53):c.780dup (p.Ser261fs),Likely pathogenic,"criteria provided, single submitter",TP53-related disorder
+4933278,TP53,NM_000546.6(TP53):c.928_929dup (p.Asn310fs),Likely pathogenic,"criteria provided, single submitter",TP53-related disorder
+4933276,TP53,NM_000546.6(TP53):c.993+327T>C,Likely benign,"criteria provided, single submitter",not specified
+4886790,TP53,GRCh38/hg38 17p13.1(chr17:7674702-7677679)x1,Likely pathogenic,no assertion criteria provided,Lung cancer
+4886507,TP53,NM_000546.6(TP53):c.640del (p.His214fs),Likely pathogenic,"criteria provided, single submitter",not provided
+4884299,TP53,NM_000546.6(TP53):c.708dup (p.Met237fs),Likely pathogenic,"criteria provided, single submitter",Li-Fraumeni syndrome
+4880485,TP53,NM_000546.6(TP53):c.810T>G (p.Phe270Leu),Likely pathogenic,"criteria provided, single submitter",Hereditary breast ovarian cancer syndrome
+4865884,TP53,NM_000546.6(TP53):c.1035T>C (p.Asn345=),Likely benign,"criteria provided, single submitter",Hereditary cancer-predisposing syndrome
+4865882,TP53,NM_000546.6(TP53):c.244C>A (p.Pro82Thr),Likely benign,"criteria provided, single submitter",Hereditary cancer-predisposing syndrome
+4865881,TP53,NM_000546.6(TP53):c.574_582del (p.Gln192_Leu194del),Likely pathogenic,"criteria provided, single submitter",Hereditary cancer-predisposing syndrome
+4865879,TP53,NM_000546.6(TP53):c.1018A>T (p.Met340Leu),Likely benign,"criteria provided, single submitter",Hereditary cancer-predisposing syndrome
+4865878,TP53,NM_000546.6(TP53):c.876_877del (p.Glu294fs),Pathogenic,"criteria provided, single submitter",Hereditary cancer-predisposing syndrome
+4865877,TP53,NM_000546.6(TP53):c.930del (p.Asn310fs),Pathogenic,"criteria provided, single submitter",Hereditary cancer-predisposing syndrome
+4865876,TP53,NM_000546.6(TP53):c.744G>C (p.Arg248=),Likely benign,"criteria provided, single submitter",Hereditary cancer-predisposing syndrome
+4865875,TP53,NM_000546.6(TP53):c.564_573del (p.Ala189fs),Pathogenic,"criteria provided, single submitter",Hereditary cancer-predisposing syndrome
+4865873,TP53,NM_000546.6(TP53):c.486_489del (p.Tyr163fs),Pathogenic,"criteria provided, single submitter",Hereditary cancer-predisposing syndrome
+4865872,TP53,NM_000546.6(TP53):c.1018A>G (p.Met340Val),Likely benign,"criteria provided, single submitter",Hereditary cancer-predisposing syndrome
+4896090,EGFR,NM_005228.5(EGFR):c.2061+19T>G,Likely benign,"criteria provided, single submitter",not specified
+4896089,EGFR,NM_005228.5(EGFR):c.1881-615G>C,Likely benign,"criteria provided, single submitter",not specified
+4896087,EGFR,NM_005228.5(EGFR):c.1881-2625_1881-2609del,Likely benign,"criteria provided, single submitter",not specified
+4896086,EGFR,NM_005228.5(EGFR):c.1722+15C>A,Likely benign,"criteria provided, single submitter",not specified
+4896085,EGFR,NM_005228.5(EGFR):c.1548G>A (p.Trp516Ter),Likely pathogenic,"criteria provided, single submitter",EGFR-related disorders
+4881248,EGFR,NM_005228.5(EGFR):c.2626-1G>C,Likely pathogenic,"criteria provided, single submitter",not provided
+4870289,EGFR,NM_005228.5(EGFR):c.3282C>T (p.Asn1094=),Likely benign,"criteria provided, single submitter",Hereditary cancer-predisposing syndrome
+4870288,EGFR,NM_005228.5(EGFR):c.1938C>A (p.Ile646=),Likely benign,"criteria provided, single submitter",Hereditary cancer-predisposing syndrome
+4870284,EGFR,NM_005228.5(EGFR):c.711T>C (p.Ala237=),Likely benign,"criteria provided, single submitter",Hereditary cancer-predisposing syndrome
+4870282,EGFR,NM_005228.5(EGFR):c.795C>T (p.Pro265=),Likely benign,"criteria provided, single submitter",Hereditary cancer-predisposing syndrome
+4870277,EGFR,NM_005228.5(EGFR):c.504C>T (p.Val168=),Likely benign,"criteria provided, single submitter",Hereditary cancer-predisposing syndrome
+4870275,EGFR,NM_005228.5(EGFR):c.1953G>T (p.Val651=),Likely benign,"criteria provided, single submitter",Hereditary cancer-predisposing syndrome
+4870270,EGFR,NM_005228.5(EGFR):c.1797C>A (p.Val599=),Likely benign,"criteria provided, single submitter",Hereditary cancer-predisposing syndrome
+4870267,EGFR,NM_005228.5(EGFR):c.1350A>G (p.Leu450=),Likely benign,"criteria provided, single submitter",Hereditary cancer-predisposing syndrome
+4870266,EGFR,NM_005228.5(EGFR):c.1290C>T (p.Thr430=),Likely benign,"criteria provided, single submitter",Hereditary cancer-predisposing syndrome
+4870264,EGFR,NM_005228.5(EGFR):c.1585G>A (p.Val529Ile),Likely benign,"criteria provided, single submitter",Hereditary cancer-predisposing syndrome
+4870262,EGFR,NM_005228.5(EGFR):c.1915A>C (p.Asn639His),Likely benign,"criteria provided, single submitter",Hereditary cancer-predisposing syndrome
+4870249,EGFR,NM_005228.5(EGFR):c.2589T>C (p.Gly863=),Likely benign,"criteria provided, single submitter",Hereditary cancer-predisposing syndrome
+4870245,EGFR,NM_005228.5(EGFR):c.1591C>A (p.Arg531=),Likely benign,"criteria provided, single submitter",Hereditary cancer-predisposing syndrome
+4870243,EGFR,NM_005228.5(EGFR):c.2781G>T (p.Leu927=),Likely benign,"criteria provided, single submitter",Hereditary cancer-predisposing syndrome
+4974578,KRAS,NM_004985.5(KRAS):c.127_228dup (p.Glu76_Gly77insGlnValValIleAspGlyGluThrCysLeuLeuAspIleLeuAspThrAlaGlyGlnGluGluTyrSerAlaMetArgAspGlnTyrMetArgThrGlyGlu),Likely pathogenic,"criteria provided, single submitter",Vascular malformation
+4974577,KRAS,NM_004985.5(KRAS):c.182_183delinsGC (p.Gln61Arg),Pathogenic,"criteria provided, single submitter",Pyogenic granuloma
+4974569,KRAS,NM_004985.5(KRAS):c.189_190delinsCCAGTACATGAGGG (p.Glu63_Tyr64delinsAspGlnTyrMetArgAsp),Likely pathogenic,"criteria provided, single submitter",Vascular malformation
+4974546,KRAS,NM_004985.5(KRAS):c.197_198delinsACCAGTAC (p.Ala66delinsAspGlnTyr),Likely pathogenic,"criteria provided, single submitter",Cerebral arteriovenous malformation
+4915985,KRAS,NM_004985.5(KRAS):c.102A>C (p.Pro34=),Likely benign,"criteria provided, single submitter",not specified
+4915984,KRAS,NM_004985.5(KRAS):c.112-18G>A,Likely benign,"criteria provided, single submitter",not specified
+4915983,KRAS,NM_004985.5(KRAS):c.290+8T>C,Likely benign,"criteria provided, single submitter",not specified
+4915981,KRAS,NM_004985.5(KRAS):c.291-9C>A,Likely benign,"criteria provided, single submitter",not specified
+4915980,KRAS,NM_004985.5(KRAS):c.291-9C>T,Likely benign,"criteria provided, single submitter",not specified
+4915978,KRAS,NM_004985.5(KRAS):c.431C>T (p.Thr144Ile),Likely pathogenic,"criteria provided, single submitter",KRAS-related disorder
+4915976,KRAS,NM_033360.4(KRAS):c.503T>A (p.Leu168Ter),Likely benign,"criteria provided, single submitter",not specified
+4915970,KRAS,NM_004985.5(KRAS):c.*264C>T,Benign,"criteria provided, single submitter",not specified
+4887018,KRAS,NM_004985.5(KRAS):c.457G>C (p.Asp153His),Likely pathogenic,"criteria provided, single submitter",Noonan syndrome 3
+4871712,KRAS,NM_004985.5(KRAS):c.454G>A (p.Val152Ile),Likely pathogenic,"criteria provided, single submitter",Noonan syndrome 3
+4859026,KRAS,NM_004985.5(KRAS):c.168C>G (p.Leu56=),Likely benign,"criteria provided, single submitter",Cardiovascular phenotype
+4859025,KRAS,NM_004985.5(KRAS):c.490C>A (p.Arg164=),Likely benign,"criteria provided, single submitter",Cardiovascular phenotype
+4859024,KRAS,NM_004985.5(KRAS):c.417T>A (p.Ile139=),Likely benign,"criteria provided, single submitter",Cardiovascular phenotype
+4859023,KRAS,NM_004985.5(KRAS):c.435A>G (p.Ser145=),Likely benign,"criteria provided, multiple submitters, no conflicts",not specified; Cardiovascular phenotype
+4859021,KRAS,NM_004985.5(KRAS):c.337C>T (p.Leu113=),Likely benign,"criteria provided, single submitter",Cardiovascular phenotype
+4859020,KRAS,NM_004985.5(KRAS):c.36T>C (p.Gly12=),Likely benign,"criteria provided, single submitter",Cardiovascular phenotype
+4954539,ALK,NM_004304.5(ALK):c.144C>A (p.Arg48=),Likely benign,"criteria provided, single submitter",not specified
+4954537,ALK,NM_004304.5(ALK):c.953-10C>T,Likely benign,"criteria provided, single submitter",not specified
+4954535,ALK,NM_004304.5(ALK):c.1414+11G>A,Likely benign,"criteria provided, single submitter",not specified
+4954534,ALK,NM_004304.5(ALK):c.1913-16G>T,Likely benign,"criteria provided, single submitter",not specified
+4954524,ALK,NM_004304.5(ALK):c.4731C>T (p.Phe1577=),Likely benign,"criteria provided, single submitter",not specified
+4870530,ALK,NM_004304.5(ALK):c.4758C>T (p.Tyr1586=),Likely benign,"criteria provided, single submitter",Hereditary cancer-predisposing syndrome
+4870491,ALK,NM_004304.5(ALK):c.471C>T (p.Pro157=),Likely benign,"criteria provided, single submitter",Hereditary cancer-predisposing syndrome
+4870424,ALK,NM_004304.5(ALK):c.3891C>T (p.Pro1297=),Likely benign,"criteria provided, single submitter",Hereditary cancer-predisposing syndrome
+4870328,ALK,NM_004304.5(ALK):c.2673G>A (p.Trp891Ter),Likely benign,"criteria provided, single submitter",Hereditary cancer-predisposing syndrome
+4870301,ALK,NM_004304.5(ALK):c.789T>G (p.Gly263=),Likely benign,"criteria provided, single submitter",Hereditary cancer-predisposing syndrome
+4870273,ALK,NM_004304.5(ALK):c.3475C>T (p.Gln1159Ter),Likely benign,"criteria provided, single submitter",Hereditary cancer-predisposing syndrome
+4870253,ALK,NM_004304.5(ALK):c.379C>T (p.Leu127=),Likely benign,"criteria provided, single submitter",Hereditary cancer-predisposing syndrome
+4870247,ALK,NM_004304.5(ALK):c.2076G>A (p.Gly692=),Likely benign,"criteria provided, single submitter",Hereditary cancer-predisposing syndrome
+4870239,ALK,NM_004304.5(ALK):c.1707G>A (p.Val569=),Likely benign,"criteria provided, single submitter",Hereditary cancer-predisposing syndrome
+4870210,ALK,NM_004304.5(ALK):c.1377G>A (p.Gln459=),Likely benign,"criteria provided, single submitter",Hereditary cancer-predisposing syndrome
+4870187,ALK,NM_004304.5(ALK):c.1155-4C>A,Likely benign,"criteria provided, single submitter",Hereditary cancer-predisposing syndrome
+4870174,ALK,NM_004304.5(ALK):c.3743+1G>T,Likely benign,"criteria provided, single submitter",Hereditary cancer-predisposing syndrome
+4870158,ALK,NM_004304.5(ALK):c.1846G>C (p.Gly616Arg),Likely benign,"criteria provided, single submitter",Hereditary cancer-predisposing syndrome
+4870117,ALK,NM_004304.5(ALK):c.2286C>T (p.Ile762=),Likely benign,"criteria provided, single submitter",Hereditary cancer-predisposing syndrome
+4870113,ALK,NM_004304.5(ALK):c.726A>C (p.Thr242=),Likely benign,"criteria provided, single submitter",Hereditary cancer-predisposing syndrome
+4961663,MLH1,NM_000249.4(MLH1):c.1667+13A>T,Likely benign,"criteria provided, single submitter",not specified
+4961661,MLH1,NM_000249.4(MLH1):c.1558+30G>C,Likely benign,"criteria provided, single submitter",not specified
+4961656,MLH1,NM_000249.4(MLH1):c.885-30G>C,Likely benign,"criteria provided, single submitter",not specified
+4961654,MLH1,NM_000249.4(MLH1):c.306+15C>A,Likely benign,"criteria provided, single submitter",not specified
+4961653,MLH1,NM_000249.4(MLH1):c.208-2del,Likely pathogenic,"criteria provided, single submitter",MLH1-related disorder
+4961652,MLH1,NM_000249.4(MLH1):c.116+118C>T,Likely benign,"criteria provided, single submitter",not specified
+4961651,MLH1,NM_000249.4(MLH1):c.116+115C>T,Likely benign,"criteria provided, single submitter",not specified
+4886571,MLH1,NM_000249.4(MLH1):c.1654_1658dup (p.Lys554fs),Likely pathogenic,"criteria provided, single submitter",not provided
+4884076,MLH1,NM_000249.4(MLH1):c.2123_2127del (p.Ile708fs),Pathogenic,"criteria provided, single submitter",not provided
+4876240,MLH1,NM_000249.4(MLH1):c.941_957del (p.Val314fs),Pathogenic,"criteria provided, single submitter",Inherited MMR deficiency (Lynch syndrome)
+4871835,MLH1,NM_000249.4(MLH1):c.117-34A>T,Likely benign,"criteria provided, single submitter",Lynch syndrome
+4860125,MLH1,NM_000249.4(MLH1):c.1668T>C (p.Ser556=),Likely benign,"criteria provided, single submitter",Hereditary cancer-predisposing syndrome
+4860120,MLH1,NM_000249.4(MLH1):c.1173_1195del (p.Gln391fs),Pathogenic,"criteria provided, single submitter",Hereditary cancer-predisposing syndrome
+4860119,MLH1,NM_000249.4(MLH1):c.1923T>G (p.Leu641=),Likely benign,"criteria provided, single submitter",Hereditary cancer-predisposing syndrome
+4860118,MLH1,NM_000249.4(MLH1):c.1164_1219dup (p.Gln407delinsProGlyAsnArgSerLeuMetHisPheCysSerLeuTer),Pathogenic,"criteria provided, single submitter",Hereditary cancer-predisposing syndrome
+4860115,MLH1,NM_000249.4(MLH1):c.1525_1535dup (p.Glu512fs),Pathogenic,"criteria provided, single submitter",Hereditary cancer-predisposing syndrome
+4860114,MLH1,NM_000249.4(MLH1):c.1479T>C (p.Ala493=),Likely benign,"criteria provided, single submitter",Hereditary cancer-predisposing syndrome
+4860111,MLH1,NM_000249.4(MLH1):c.2085G>T (p.Ser695=),Likely benign,"criteria provided, single submitter",Hereditary cancer-predisposing syndrome
+4860109,MLH1,NM_000249.4(MLH1):c.1377A>G (p.Ser459=),Likely benign,"criteria provided, single submitter",Hereditary cancer-predisposing syndrome
+4860108,MLH1,NM_000249.4(MLH1):c.1917del (p.Leu639fs),Pathogenic,"criteria provided, single submitter",Hereditary cancer-predisposing syndrome
+4974697,MSH2,GRCh38/hg38 2p21(chr2:47422250-47494189)x1,Pathogenic,"criteria provided, single submitter",See cases
+4954979,MSH2,NM_000251.3(MSH2):c.2262_2263dup (p.Ser755fs),Likely pathogenic,"criteria provided, single submitter",MSH2-related disorder
+4954974,MSH2,NM_000251.3(MSH2):c.1676dup (p.Leu559fs),Pathogenic,"criteria provided, single submitter",MSH2-related disorder
+4954972,MSH2,NM_000251.3(MSH2):c.1662-33T>C,Likely benign,"criteria provided, single submitter",not specified
+4954971,MSH2,NM_000251.3(MSH2):c.1310_1311del (p.Val437fs),Likely pathogenic,"criteria provided, single submitter",MSH2-related disorder
+4954967,MSH2,NM_000251.3(MSH2):c.1076+16A>T,Likely benign,"criteria provided, single submitter",not specified
+4954966,MSH2,NM_000251.3(MSH2):c.942+15_942+29del,Likely benign,"criteria provided, single submitter",not specified
+4886820,MSH2,GRCh38/hg38 2p21(chr2:47435512-47452468)x1,Pathogenic,no assertion criteria provided,Endometrial carcinoma
+4884295,MSH2,NM_000251.3(MSH2):c.1816_1822del (p.Val606fs),Pathogenic,"criteria provided, single submitter",Inherited MMR deficiency (Lynch syndrome)
+4880191,MSH2,NC_000002.12:g.47406871_47425934inv,Pathogenic,"criteria provided, single submitter",Lynch syndrome 1
+4879419,MSH2,NM_000251.3(MSH2):c.2266_2267del (p.Thr756fs),Pathogenic,"criteria provided, single submitter",Lynch syndrome 1
+4860318,MSH2,NM_000251.3(MSH2):c.1396C>A (p.His466Asn),Likely benign,"criteria provided, single submitter",Hereditary cancer-predisposing syndrome
+4860317,MSH2,NM_000251.3(MSH2):c.2530_2531delinsTG (p.Ala844Cys),Likely benign,"criteria provided, single submitter",Hereditary cancer-predisposing syndrome
+4860316,MSH2,NM_000251.3(MSH2):c.1650dup (p.Phe551fs),Pathogenic,"criteria provided, single submitter",Hereditary cancer-predisposing syndrome
+4860315,MSH2,NM_000251.3(MSH2):c.513G>A (p.Arg171=),Likely benign,"criteria provided, single submitter",Hereditary cancer-predisposing syndrome
+4860313,MSH2,NM_000251.3(MSH2):c.2683C>A (p.Pro895Thr),Likely benign,"criteria provided, single submitter",Hereditary cancer-predisposing syndrome
+4860312,MSH2,NM_000251.3(MSH2):c.700A>C (p.Thr234Pro),Likely benign,"criteria provided, single submitter",Hereditary cancer-predisposing syndrome
+4860310,MSH2,NM_000251.3(MSH2):c.334T>G (p.Ser112Ala),Likely benign,"criteria provided, single submitter",Hereditary cancer-predisposing syndrome
+4860307,MSH2,NM_000251.3(MSH2):c.1893A>G (p.Arg631=),Likely benign,"criteria provided, single submitter",Hereditary cancer-predisposing syndrome
+4860306,MSH2,NM_000251.3(MSH2):c.86A>C (p.Lys29Thr),Likely benign,"criteria provided, single submitter",Hereditary cancer-predisposing syndrome

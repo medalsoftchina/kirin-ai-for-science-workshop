@@ -1,0 +1,27 @@
+# =============================================================================
+# terraform.tfvars のサンプル
+# 使い方: このファイルをコピーして terraform.tfvars を作成し、値を編集します。
+#   cp terraform.tfvars.example terraform.tfvars
+# =============================================================================
+
+# リソース名のプレフィックス (3〜7文字の小文字英数字)。
+# リソースグループ名は rg-<base_name> になります (既定では rg-kirinws)。
+# 受講者同士で名前がぶつかる場合は、イニシャルなどを入れて変更してください。
+# 例: base_name = "krnab12"
+base_name = "kirinws"
+
+# デプロイ先リージョン
+location = "japaneast"
+
+# AI Foundry プロジェクト名
+project_name = "kirin-rnd-lab"
+
+# リソースに付与するタグ。
+# owner は必ず自分の名前 (アルファベット) に書き換えてください。
+tags = {
+  workload    = "ai-foundry-lab"
+  environment = "workshop"
+  managed_by  = "terraform"
+  day         = "day2-lab0"
+  owner       = "your-name" # ← 自分の名前に変更 (例: "taro-yamada")
+}

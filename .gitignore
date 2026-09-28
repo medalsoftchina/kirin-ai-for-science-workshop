@@ -1,0 +1,53 @@
+# Secrets & Credentials
+.env
+.env.*
+!.env.example
+!.env.sample
+
+# Terraform
+**/.terraform/
+*.tfstate
+*.tfstate.*
+*.tfplan
+terraform.tfvars
+!terraform.tfvars.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+
+# Data + GraphRAG artifacts (reference implementation)
+# data/omics/ stays tracked - do not ignore it.
+reference/data/raw/
+reference/data/processed/
+reference/data/graphrag/input/
+reference/data/graphrag/output/
+reference/data/graphrag/cache/
+reference/data/graphrag/lancedb/
+reference/data/graphrag/.env
+
+# Reports
+reference/reports/community_summaries/
+
+# Logs
+*.log
+
+# Scratch
+scratch/
+
+# Internal / customer-sensitive materials (never distributed to attendees)
+docs/input/
+docs/internal/
+docs/errata-day1-day2.md
+*.backup-*.pptx
+
+# Lab 3 build artifacts (rebuilt by build_omics_db.py / main.py)
+build-your-first-agent-trimmed/omics.db
+build-your-first-agent-trimmed/omics_db.txt
+build-your-first-agent-trimmed/output/

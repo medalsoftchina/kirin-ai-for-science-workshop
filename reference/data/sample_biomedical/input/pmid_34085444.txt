@@ -1,0 +1,10 @@
+Title: Adagrasib in Non-Small-Cell Lung Cancer Harboring KRAS G12C Mutation (KRYSTAL-1)
+DOI: 10.1056/NEJMoa2204619
+Category: Oncology / Precision Medicine
+Key Biomedical Entities: Adagrasib, MRTX849, KRAS G12C, Non-Small Cell Lung Cancer, KRYSTAL-1, STK11, KEAP1, Objective Response Rate
+
+Abstract:
+In the phase 2 cohort of the KRYSTAL-1 trial, patients with advanced NSCLC harboring the KRAS G12C mutation who had previously received platinum-based chemotherapy and anti-PD-(L)1 therapy received adagrasib 600 mg orally twice daily. Among 112 evaluable patients, an objective response (confirmed partial or complete response) occurred in 42.9% (95% CI, 33.5 to 52.6). The median duration of response was 8.5 months, and median progression-free survival was 6.5 months. Among patients with co-occurring STK11 mutations, objective response rate was 40.5%. Grade 3 or higher treatment-related adverse events occurred in 44.8% of patients, including elevated alanine/aspartate aminotransferase, fatigue, and nausea. Intracranial objective response in patients with untreated baseline brain metastases was 33.3%.
+
+Clinical Details & Mechanism:
+KRAS G12C mutations occur in approximately 13% of non-small cell lung adenocarcinomas. Adagrasib is an irreversible, selective small-molecule inhibitor of KRAS G12C that locks the mutant GTPase in its inactive GDP-bound conformation. Its pharmacokinetic profile features a long half-life (~23 hours), dose-dependent accumulation, and demonstrated central nervous system (CNS) penetration. Co-mutational profiling (STK11/LKB1 and KEAP1) serves as an essential biomarker context, as STK11 co-mutations traditionally confer primary resistance to immune checkpoint blockade but retain clinical sensitivity to targeted KRAS G12C inhibition.
