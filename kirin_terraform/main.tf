@@ -54,6 +54,13 @@ module "ai_foundry" {
   create_byor              = true
   create_private_endpoints = false # プライベートエンドポイントは作成しない (ラボのため最小構成)
 
+  # Agent Service を有効化 (既定は false)。これを true にすると Capability Host が
+  # 作成され、Agent のスレッド状態が Cosmos DB に永続化される (Lab 3 の裏側)。
+  # 既定のままだと Cosmos DB は作成されるだけで使われないので注意。
+  ai_foundry = {
+    create_ai_agent_service = true
+  }
+
   # AVM のテレメトリ (Microsoft への匿名の利用統計) を無効化し、
   # 作成されるリソース数を最小限に抑えます。
   enable_telemetry = false
@@ -111,7 +118,12 @@ module "ai_foundry" {
 
   # Cosmos DB: エージェントのスレッド状態保存用 (既定構成で作成)
   cosmosdb_definition = {
-    this = {}
+    this = {
+      # Agent Service の Capability Host (パブリック構成) は Cosmos DB への
+      # パブリックアクセスを要求する。モジュール既定 (false) のままだと
+      # Agent 作成が cosmos_vnet_blocked で失敗する (2026-09-29 実測)。
+      public_network_access_enabled = true
+    }
   }
 
   # --- モデルデプロイ (3 モデル) ----------------------------------------------
