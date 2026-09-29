@@ -158,7 +158,7 @@ Foundry ポータルのナレッジベース機能（Foundry IQ）で、最も�
 1. Foundry ポータル（ai.azure.com）→ プロジェクト **kirin-rnd-lab** を開きます。
 2. **ナレッジベース → 新規作成**をクリックし、名前に **omics-kb** と入力します。
 3. **ナレッジソースに Blob**（講師配布の文書フォルダ）を接続します。
-4. モデルに **gpt-6-luna**（Lab 0 でデプロイ済み）を選択し、作成を実行します。
+4. モデルに **gpt-4.1**（Lab 0 でデプロイ済み）を選択し、作成を実行します。**gpt-6-luna / gpt-5.6-terra はナレッジベースのクエリプランニングに未対応のため選択肢に表示されません**（対応モデル: gpt-4o / 4.1 / 5 系。[公式一覧](https://learn.microsoft.com/ja-jp/azure/search/agentic-retrieval-how-to-create-knowledge-base)）。
 5. リポジトリの **`data/omics`** にある **2 つの論文 PDF**（*Lactiplantibacillus plantarum* の耐酸性に関するオープンアクセス論文）と **clinvar_subset.csv**（8 遺伝子 × 20 変異の ClinVar サブセット）を Blob の文書フォルダにアップロードします（ポータルからドラッグ＆ドロップ可）。あわせて **`data/omics/papers/`** にある**キリンの研究方向に関するオミックス論文 10 篇**もアップロードし、検索対象を広げてみましょう。
 6. ナレッジベースで**インデックスを再実行**し、文書が**チャンク化・ベクトル化**されて登録される様子をログ・ステータスで確認します。
 
@@ -206,12 +206,14 @@ bash setup.sh        # Windows は setup.ps1
 python src/workshop/main.py
 ```
 
-### モデルについて（なぜ Lab 3 だけ gpt-4.1 なのか）
+### モデルについて（なぜ Lab 2・3 は gpt-4.1 なのか）
 
-Lab 1・2 では最新プレビューの **gpt-6-luna** を使いますが、Lab 3 の Agent Service
-では **gpt-4.1**（最新 GA）を使います。2026-09-28 時点の実測で、プレビュー系
-（gpt-6 / 5.6 系）はチャット API では動くものの Agent Service の実行が失敗する
-ことを確認しているためです。「プレビューモデルは全機能に対応しているとは限らない」
+Lab 1 では最新プレビューの **gpt-6-luna** を使いますが、Lab 2 のナレッジベース
+（Foundry IQ のクエリプランニング）は gpt-4o / 4.1 / 5 系のみ対応のため
+**gpt-4.1** を使い、Lab 3 の Agent Service でも **gpt-4.1**（最新 GA）を使います。
+2026-09-28 時点の実測で、プレビュー系（gpt-6 / 5.6 系）はチャット API では動く
+ものの Agent Service の実行が失敗することを確認しています。
+「プレビューモデルは全機能に対応しているとは限らない」
 ― これも Evaluate の視点です。
 
 ### 観察ポイント
