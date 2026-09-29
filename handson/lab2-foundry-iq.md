@@ -31,10 +31,16 @@ Azure AI Search の上に構築されたマネージド・ナレッジレイヤ�
 
 ## 2-2. ナレッジソース（Blob）の接続
 
+> **講師準備済み:** 文書フォルダ（コンテナ **omics-docs**）は講師がストレージ
+> アカウント内に事前作成し、**3 ファイル（PDF×2・CSV×1）をアップロード済み**
+> です。皆さんは接続とインデックス再実行だけ行えば OK です。
+> 自分でコンテナを作り直したい場合は Azure ポータル → ストレージアカウント →
+> 「コンテナ」→「+ コンテナ」で作成できます（手順は付録 A を参照）。
+
 | # | 操作 | 画面に表示されるもの | つまずいたら |
 |---|---|---|---|
 | 1 | 作成ウィザードのナレッジソース設定で「**Blob**」を選択 | ストレージアカウントの選択肢 | — |
-| 2 | Lab 0 で作成したストレージアカウント（`terraform output` の **storage_account_name**）内の、**講師配布の文書フォルダ**を接続 | 接続先のコンテナ／フォルダが選択状態に | **ストレージが一覧に出ない**場合：①リソースグループ rg-kirinws 内のものか確認 ②自分のアカウントが Contributor 以上か確認。解決しなければ講師へ |
+| 2 | Lab 0 で作成したストレージアカウント（`terraform output` の **storage_account_name**）内のコンテナ **omics-docs** を接続 | 接続先のコンテナが選択状態に | **ストレージが一覧に出ない**場合：①リソースグループ rg-kirinws 内のものか確認 ②自分のアカウントが Contributor 以上か確認。解決しなければ講師へ |
 
 > **メモ:** 接続先のストレージ名は Lab 0 の記録シート転記欄にあります。
 
@@ -53,7 +59,7 @@ Azure AI Search の上に構築されたマネージド・ナレッジレイヤ�
 | # | 操作 | 画面に表示されるもの | つまずいたら |
 |---|---|---|---|
 | 1 | 事前配布の GitHub リポジトリ（clone 済み or ZIP 展開済み）の **`data/omics/`** を開く | 上記 3 ファイル | リポジトリを未取得の方は今すぐ `git clone` するか、講師の ZIP 配布を受けてください |
-| 2 | ナレッジソースに接続した Blob の文書フォルダをポータルで開き、3 ファイルを**ドラッグ＆ドロップ**でアップロード | アップロード済みファイルの一覧に 3 ファイルが並ぶ | D&D が効かない場合は「アップロード」ボタンから選択。Blob 側は [Azure ポータル](https://portal.azure.com) のストレージアカウント → コンテナからでも可 |
+| 2 | ナレッジソースに接続した Blob の文書フォルダをポータルで開き、3 ファイルを**ドラッグ＆ドロップ**でアップロード（講師が事前アップロード済みのため、**同名ファイルを上書き**する形で体験します） | アップロード済みファイルの一覧に 3 ファイルが並ぶ | D&D が効かない場合は「アップロード」ボタンから選択。Blob 側は [Azure ポータル](https://portal.azure.com) のストレージアカウント → コンテナからでも可。**403 / 権限エラーが出た場合**: アカウントにデータ平面ロール「ストレージ BLOB データ共同作成者」が未付与です（Contributor は管理平面のみ）。講師がその場で付与します（反映に約 1 分） |
 | 3 | ナレッジベースの画面で「**インデックスの再実行**」をクリック | インデックス処理が開始される | **再実行の押し忘れ**に注意。アップロードしただけでは検索に載りません |
 | 4 | ログ・ステータスで、文書が**チャンク化・ベクトル化**されて登録される様子を確認 | ステータスが「完了」に。文書数・チャンク数が増える | 完了まで数分かかります。待ち時間は次の「加工の裏側」をお読みください |
 
@@ -110,5 +116,38 @@ Azure AI Search の上に構築されたマネージド・ナレッジレイヤ�
 > **クリーンアップ（17:10–17:30）**で `terraform destroy` 後に残留がないか
 > 全員で確認します（詳しくは [HANDSON_GUIDE.md](HANDSON_GUIDE.md) の
 > クリーンアップ欄）。
+
+---
+
+## 付録 A. 講師用：コンテナ作成と権限付与（事前準備・当日トラブル対応）
+
+Lab 2 開始前に講師が実施済みです。環境を作り直した場合や、当日権限エラーが
+出た場合の対応手順として残します。
+
+```bash
+SA=kirinwsthisfndrysaluxs6   # terraform output storage_account_name
+
+# 1. 文書コンテナの作成（データ平面ロールが必要）
+az storage container create --account-name $SA --name omics-docs --auth-mode login
+
+# 2. 3 ファイルのアップロード（リポジトリの data/omics/ から）
+az storage blob upload-batch --account-name $SA --destination omics-docs \
+  --source data/omics --auth-mode login --pattern "*.pdf" --overwrite
+az storage blob upload --account-name $SA --container-name omics-docs \
+  --file data/omics/clinvar_subset.csv --name clinvar_subset.csv \
+  --auth-mode login --overwrite
+
+# 3. データ平面ロールの付与（アップロードする全アカウントに必要）
+#    Contributor（管理平面）だけでは Blob の読み書きはできません。
+SA_ID=$(az storage account show -g rg-kirinws -n $SA --query id -o tsv)
+az role assignment create \
+  --assignee <対象ユーザーのオブジェクトID> \
+  --role "Storage Blob Data Contributor" \
+  --scope "$SA_ID"
+# ※ ロール反映まで約 1 分かかります
+```
+
+> サブスクリプションの共同作成者（共同管理者）のアカウントは管理・データ
+> 両平面の権限を含むため、手順 3 は不要です。
 
 → 戻る: [HANDSON_GUIDE.md](HANDSON_GUIDE.md)
